@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 37.5em) {
+    main#grid-container {
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 670px auto auto;
+    }
+    section.sobre {
+        position: sticky;
+        top: 65px;
+        grid-column: 1 / 2;
+        grid-row: 1;
+        height: fit-content;
+    }
+    section.skills {
+        position: sticky;
+        top: 755px;
+        grid-column: 1 / 2;
+        grid-row: 1;
+        height: fit-content;
+    }
+    section.projects {
+        grid-column: 2 / -1;
+        grid-row: 1 / -1;
+    }
+    .item img { 
+        float: right;
+    }
+}
