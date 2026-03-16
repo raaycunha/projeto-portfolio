@@ -52,14 +52,14 @@ header > nav {
     justify-content: flex-end;
     gap: 10px;
 }
-i.bar {
+i.menu {
     cursor: pointer;
     color: var(--icon-color);
     font-size: 1.3em;
     padding: 10px;
     transition: .4s;
 }
-i.bar:hover {
+i.menu:hover {
     border-radius: 5px;
     color: #530505;
     background-color: var(--icon-hover);
@@ -125,7 +125,6 @@ section.skills img {
     display: flex;
     align-items: center;
 }
-
 .projects {
     display: grid;
     grid-template-columns: 1fr;
